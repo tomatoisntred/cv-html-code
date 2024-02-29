@@ -1,0 +1,91 @@
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px
+}
+.section-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	border-width: medium ;
+	border-bottom-style: solid;
+	color: navy;
+}	
+.section {
+	margin: 0 40px 40px 40px;
+}
+#infor{
+	height: 280px;
+	margin-top: 40px;
+}
+#thongtincanhan {
+	float: left;
+}
+img {
+	float: right;
+	height: 150px;
+	width: 150px;
+}
+.box #thongtin{
+	min-width: 100px;
+}
+#name {
+	color: #0e2452;
+}
+#gioithieu {
+	text-align: justify;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.box {
+	display: flex;
+	flex-direction: row;
+	font-size: 16px; 
+}
+.box .time {
+	min-width: 250px;
+}
+.box .nnlt {
+	min-width: 250px;
+	display: block;
+}
+.noidung {
+	text-align: justify;
+}
+.section-content {
+	font-size: 16px;
+}
+.year {
+	font-size: 15px;
+}
+.time .noidung {
+	display: block;
+}
+a{
+	text-decoration: none; 
+	color: blue;
+}
